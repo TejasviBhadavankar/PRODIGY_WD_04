@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>TEJASVI</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with a passion for creating interactive and dynamic websites. </p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Tic-Tac-Toe </h3>
+                    <p>This project is a classic implementation of the Tic-Tac-Toe game, built using HTML, CSS, and
+                        JavaScript. The game features a simple, clean interface where two players can take turns marking
+                        spaces in a 3×3 grid. The first player to align three of their marks vertically, horizontally,
+                        or diagonally wins the game. The game also includes functionality to reset the board for a new
+                        game.</p>
+                </div>
+                <div class="project">
+                    <h3>Weather App</h3>
+                    <p>The Weather App is a user-friendly application that provides real-time weather information for
+                        any location worldwide. Built using HTML, CSS, and JavaScript, this app integrates with a
+                        third-party weather API to fetch and display current weather conditions. Users can search for
+                        weather updates by entering
+                        city names .</p>
+                </div>
+                <div class="project">
+                    <h3>StopWatch</h3>
+                    <p>The Stopwatch project is a simple yet functional web application that allows users to measure
+                        elapsed time with precision. Built using HTML, CSS, and JavaScript, this app features start,
+                        stop, and reset functionalities.</p>
+
+                </div>
+
+            </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
